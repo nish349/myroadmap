@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Favicon: Custom Full Stack Roadmap Generator -->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Custom Full Stack Roadmap Generator favicon">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect x="4" y="4" width="120" height="120" rx="20" fill="url(#g1)" />
+
+  <!-- Left stack stripes (representing frontend/back/db layers) -->
+  <g transform="translate(18,32)">
+    <rect x="0" y="0" width="22" height="10" rx="3" fill="#ffffff" opacity="0.95"/>
+    <rect x="0" y="18" width="30" height="10" rx="3" fill="#ffffff" opacity="0.95"/>
+    <rect x="0" y="36" width="38" height="10" rx="3" fill="#ffffff" opacity="0.95"/>
+  </g>
+
+  <!-- Stylized 'R' shape merged with a roadmap arrow -->
+  <g transform="translate(70,30)">
+    <!-- Rounded circular stroke behind the R to add focus -->
+    <circle cx="0" cy="0" r="34" fill="none" stroke="url(#g2)" stroke-width="6" />
+
+    <!-- The 'R' body -->
+    <path d="M -18 4
+             L -18 -26
+             C -18 -36, -2 -36, 8 -36
+             C 26 -36, 26 -12, 8 -8
+             C 26 -4, 30 12, 8 20
+             L -18 20" 
+          fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Arrowhead representing roadmap/direction on the R leg -->
+    <path d="M 16 28 L 24 20 L 12 16" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Subtle drop shadow for depth -->
+  <ellipse cx="64" cy="108" rx="36" ry="6" fill="#000" opacity="0.06" />
+</svg>
